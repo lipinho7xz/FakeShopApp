@@ -12,12 +12,19 @@
             android:id="@+id/modImagemProduto"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:src="#2c2c2c" />
+            android:src="@drawable/iphone" />
+
         <TextView
-            android:layout_width="wrap_content"
             android:id="@+id/modTituloProduto"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Titulo do Produto"/>
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5sp"
+            android:fontFamily="@font/didatic_gothic_regular"
+            android:text="Iphone 15 128gb - Azul"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:textStyle="bold" />
 
 
     </LinearLayout>
